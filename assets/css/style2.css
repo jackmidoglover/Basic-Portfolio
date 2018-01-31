@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.imageLink {
+    width: 265px;
+    height: 200px;
+    background-image: url(".Basic-Portfolio/assets/images/portfolioicon.png");
+    background-size: cover;
+    
+}
