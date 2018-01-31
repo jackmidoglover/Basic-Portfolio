@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Overall Page */
+header, h1, h2, h3 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Arial',  'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/intersection.png);
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 25px;
+    color: #4ba;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 25px;
+    color: #4ba;
+} 
+
+/* Header Bar */
+
+header {
+    background-color: white;
+    padding: 13px;
+    overflow: auto;
+    border-bottom: 3px solid #b8b8b8;
+    min-height: 85px;
+}
+.logo {
+    background-color: #4ba;
+    color: white;
+    width: 400px;
+    padding: 25px 5px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    left: 148px;
+    top: 0;
+    clear: left;
+}
+
+/* Nav Bar */
+
+nav {
+    width: 350px; 
+    padding: 20px 10px;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Links */
+a:link {
+    color: #aaa;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#CCA514;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#4ba;
+}
+
+/* Main Body */
+
+main {
+    width: 960px;
+    clear: both;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+section {
+    width: 650px;
+    display: inline-block;
+    float: left;
+    line-height: 2;
+    background-color: #ffffff;
+    margin: 35px 0;
+    padding: 30px;
+}
+
+.profilePic {
+    float: left; 
+    margin: 0 25px 0 0;
+    display: inline-block;
+}
+
+
+clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Sidebar */
+
+.connect {
+    width: 270px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 35px;
+    margin-left: 40px;
+    line-height: 1.7;
+    float: left;
+    display: inline-block;
+}
+
+#linkBorder {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.thumbLink {
+    height: 55px;
+    width: 55px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #666;
+    height: 80px;
+    padding: 40px 25px 40px 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    border-top: 10px solid #4ba;
+}
+
+/* Forms */
+
+input[type=text]:focus {
+    border: 3px solid #4ba;
+}
+
+input[type=text] {
+    margin-top: 0;
+    padding: 5px;
+    width:550px;
+    font-size: 14px;
+    color: #aaa;
+}
+textarea {
+    width: 550px;
+    height: 250px;
+    resize: none;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+textarea:focus {
+    border: 3px solid #4ba;
+}
