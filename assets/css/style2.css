@@ -1,13 +1,82 @@
+/* Forms */
+
+input[type=text]:focus {
+    border: 3px solid #4ba;
+}
+
+input[type=text] {
+    margin-top: 0;
+    padding: 5px;
+    width:550px;
+    font-size: 14px;
+    color: #aaa;
+}
+textarea {
+    width: 550px;
+    height: 250px;
+    resize: none;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+textarea:focus {
+    border: 3px solid #4ba;
+}
+
+/* Portfolio Menu */
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
 }
 
 .imageLink {
     width: 265px;
     height: 200px;
-    background-image: url(".Basic-Portfolio/assets/images/portfolioicon.png");
+    background-image: url("../images/portfolioicon.png");
     background-size: cover;
-    
+    margin-left: 5px; 
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+#a {
+    background-image: url("../images/tokipic1.jpg");
+    background-size: cover;
+}
+
+#b {
+    background-image: url("../images/tokipic2.jpg");
+    background-size: cover;
+}
+
+#c {
+    background-image: url("../images/birds.jpg");
+    background-size: cover;
+}
+
+#d {
+    background-image: url("../images/oranges.jpg");
+    background-size: cover;
+}
+
+#e {
+    background-image: url("../images/photocollage.jpg");
+    background-size: cover;
+}
+
+/* Image Banners */
+h3 {
+    width: 265px;
+    height: 60px;
+    background-color: #4ba;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 130px;
+    padding: 10px 0;
 }

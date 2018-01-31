@@ -157,29 +157,3 @@ footer {
     border-top: 10px solid #4ba;
 }
 
-/* Forms */
-
-input[type=text]:focus {
-    border: 3px solid #4ba;
-}
-
-input[type=text] {
-    margin-top: 0;
-    padding: 5px;
-    width:550px;
-    font-size: 14px;
-    color: #aaa;
-}
-textarea {
-    width: 550px;
-    height: 250px;
-    resize: none;
-    margin-top: 5px;
-    padding: 5px;
-    font-size: 14px;
-    color: #aaa;
-}
-
-textarea:focus {
-    border: 3px solid #4ba;
-}
