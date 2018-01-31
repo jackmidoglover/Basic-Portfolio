@@ -120,6 +120,9 @@ clearfix::after {
     clear: both;
 }
 
+span {
+    font-style: italic;
+}
 /* Sidebar */
 
 .connect {
